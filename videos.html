@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tchoo14</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css" integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.min.css" integrity="sha512-YoxvmIzlVlt4nYJ6QwBqDzFc+2aXL7yQwkAuscf2ZAg7daNQxlgQHV+LLRHnRXFWPHRvXhJuBBjQqHAqRFkcVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9" style="background-color: #F7F8FA;height: 100vh;">
+                <nav class="navbar navbar-expand-lg" style="background-color: #FFFFFF;">
+                    <div class="container-fluid">
+                      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item"><a class="nav-link" href="#"> <img src="assets/img/settings.png" alt="" style="width: 40px; height: 40px;"> </a></li>
+                          <li class="nav-item"><a class="nav-link" href="#"> <img src="assets/img/profile1.png" alt="" style="width: 40px; height: 40px;"> </a></li>
+                          <li class="nav-item"><a class="nav-link" href="#"> <img src="assets/img/message.png" alt="" style="width: 40px; height: 40px;"> </a></li>
+                          <li class="nav-item"><a class="nav-link" href="#"> <img src="assets/img/alarm.png" alt="" style="width: 40px; height: 40px;filter: invert(35%) sepia(94%) saturate(906%) hue-rotate(101deg) brightness(102%) contrast(96%);"> </a></li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
+                        </form>
+                      </div>
+                    </div>
+                </nav>
+
+
+                <div style="margin-top: 50px;">
+                    <style>
+                        /* .nav-tabs .nav-link {
+                            border-bottom: 5px solid #854CF2;
+                        } */
+                        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+                            color: white;
+                            background-color: #7851F5;
+                            border-color: transparent;
+                        }
+                        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+                            color: white;
+                            background-color: #7851F5;
+                            border-color: transparent;
+                        }
+                        .nav-tabs .nav-link {
+                            color: #7851F5;
+                            margin-bottom: 20px;
+                            background-color: #FFFFFF;
+                            border-top-left-radius: 3rem;
+                            border-top-right-radius: .3rem;
+                            margin-right: -20px;
+                            box-shadow: -2px 0px 2px gray !important;
+                        }
+                        .nav-tabs {
+                            --bs-nav-tabs-border-color: transparent !important;
+                        }
+                        .nav-link{
+                            padding: .3rem 1.5rem;
+                        }
+                        li{
+                            font-size: .9rem;
+                        }
+
+                    </style>
+                    <div style="margin-left: -20px;">
+                        <a href="create_videos.html" style="background-color: #7851F5; color: #FFFFFF; border-radius: 1rem;padding: .1rem .5rem;text-decoration: none;margin-left: 20px;"><i class="fa-solid fa-circle-plus"></i> NEW Course</a>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist" style="float: right;" style="background-color: #FFFFFF;">
+
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="islamic-tab" data-bs-toggle="tab" data-bs-target="#islamic-tab-pane" type="button" role="tab" aria-controls="islamic-tab-pane" aria-selected="true">Islamic</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="english-tab" data-bs-toggle="tab" data-bs-target="#english-tab-pane" type="button" role="tab" aria-controls="english-tab-pane" aria-selected="true">English</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="franch-tab" data-bs-toggle="tab" data-bs-target="#franch-tab-pane" type="button" role="tab" aria-controls="franch-tab-pane" aria-selected="true">Franch</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="arabic-tab" data-bs-toggle="tab" data-bs-target="#arabic-tab-pane" type="button" role="tab" aria-controls="arabic-tab-pane" aria-selected="true">Arabic</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="geagraphie-tab" data-bs-toggle="tab" data-bs-target="#geagraphie-tab-pane" type="button" role="tab" aria-controls="geagraphie-tab-pane" aria-selected="true">Geographie</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="phisics-tab" data-bs-toggle="tab" data-bs-target="#phisics-tab-pane" type="button" role="tab" aria-controls="phisics-tab-pane" aria-selected="true">Phisics</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="science-tab" data-bs-toggle="tab" data-bs-target="#science-tab-pane" type="button" role="tab" aria-controls="science-tab-pane" aria-selected="true">Science</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="math-tab" data-bs-toggle="tab" data-bs-target="#math-tab-pane" type="button" role="tab" aria-controls="math-tab-pane" aria-selected="false">Math</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="false" style="margin-right: 0;">All</button></li>
+                        
+                        </ul>
+                        
+                    </div>
+                    <br>
+                    <div style="height: 7px;background-color: #7851F5;margin-top: -16px;"></div>
+                    
+                    <div class="tab-content" id="myTabContent">
+
+                        <div class="tab-pane fade" id="islamic-tab-pane" role="tabpanel" aria-labelledby="islamic-tab" tabindex="0">islamic</div>
+                        <div class="tab-pane fade" id="english-tab-pane" role="tabpanel" aria-labelledby="english-tab" tabindex="0">english</div>
+                        <div class="tab-pane fade" id="franch-tab-pane" role="tabpanel" aria-labelledby="franch-tab" tabindex="0">franch</div>
+                        <div class="tab-pane fade" id="arabic-tab-pane" role="tabpanel" aria-labelledby="arabic-tab" tabindex="0">arabic</div>
+                        <div class="tab-pane fade" id="geagraphie-tab-pane" role="tabpanel" aria-labelledby="geagraphie-tab" tabindex="0">geagraphie</div>
+                        <div class="tab-pane fade" id="phisics-tab-pane" role="tabpanel" aria-labelledby="phisics-tab" tabindex="0">phisics</div>
+                        <div class="tab-pane fade" id="science-tab-pane" role="tabpanel" aria-labelledby="science-tab" tabindex="0">science</div>
+                        <div class="tab-pane fade" id="math-tab-pane" role="tabpanel" aria-labelledby="math-tab" tabindex="0">math</div>
+
+                        <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0" style="height: 60vh;background-color: #FFFFFF; border-radius: 0px 0px 1rem 1rem; padding: 0 1rem;">
+                            <div class="row">
+                              <br>
+                            </div>
+
+                            <div class="row">
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v1.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v2.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v3.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v4.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v5.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                            </div>
+                            <div class="row">
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v1.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v2.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v3.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v4.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                              <div class="col"><div class="card" style="width: 10rem;">
+                                <img src="assets/img/v5.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: end;">Card title</h5>
+                                  <div class="row">
+                                    <div class="col"> <i class="fa-brands fa-youtube" style="float: left;color: red;"></i></div>
+                                    <div class="col"><p class="card-text" style="text-align: end;">mohamed.s</p></div>
+                                  </div>
+                                </div>
+                              </div></div>
+                            </div>
+
+                            <nav aria-label="Page navigation example">
+                              <ul class="pagination">
+                                <li class="page-item pe-2"><a class="page-link" href="#" aria-label="Previous"><i class="fa-solid fa-caret-left" style="color: #C4C4C4;"></i></a></li>
+                                <li class="page-item pe-2"><a class="page-link" href="#" style="color: #C4C4C4">76</a></li>
+                                <li class="page-item pe-2"><a class="page-link" href="#" style="color: #C4C4C4">...</a></li>
+                                <li class="page-item pe-2"><a class="page-link" href="#" style="color: #C4C4C4">3</a></li>
+                                <li class="page-item pe-2"><a class="page-link" href="#" style="color: #C4C4C4">2</a></li>
+                                <li class="page-item pe-2"><a class="page-link" href="#" style="color: #C4C4C4">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#" aria-label="Next"><i class="fa-solid fa-caret-right" style="color: #C4C4C4;"></i></a></li>
+                              </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
+            <div class="col-3" style="background-color: #7851F5;height: 100vh;">
+                <div class="row">
+                    <img src="assets/img/edutech.JPG" alt="" style="padding: 2rem 1rem;">
+                </div>
+                <div class="row">
+                    <style>
+                        .side_menu_style{
+                            float: right;
+                            color: white;
+                            text-decoration: none;
+                            width: 220px;
+                            height: 40px;
+                            text-align: end;
+                            padding: .1rem 1rem;
+                            margin: .2rem 0rem;
+                            border-radius: .5rem;
+                            font-size: 1.1rem;
+                            font-weight: bold;
+                        }
+                        .active_menu{
+                            background-color: #DFDBFF;
+                            color: #7851F5;
+                        }
+                        .side_menu_style:hover{
+                          background-color: #DFDBFF;
+                          color: #7851F5;
+                        }
+                    </style>
+                    <div class="col ms-5" style="padding: 0 2rem;">
+                      <div class=""><a href="home.html" class="side_menu_style">Home <i class="fa-solid fa-graduation-cap ps-3"></i></a></div> 
+                      <div class=""><a href="index.html" class="side_menu_style">Courses <i class="fa-solid fa-book-bookmark ps-3"></i></a></div>
+                      <div class=""><a href="exams.htmk" class="side_menu_style">Exams <i class="fa-solid fa-business-time ps-3"></i></a></div>
+                      <div class=""><a href="videos.html" class="side_menu_style active_menu">Videos <i class="fa-solid fa-video ps-3"></i></a></div>
+                      <div class=""><a href="accounts.html" class="side_menu_style">Accounts <i class="fa-solid fa-briefcase ps-3"></i></a></div>
+                      <!-- <div style="width: 20px;height: 40px;border-radius: 40px 0px 0px 40px;background-color: #DFDBFF;"></div> -->
+                    </div>
+                    
+
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/img/infographics1.svg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

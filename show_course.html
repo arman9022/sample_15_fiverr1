@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tchoo14</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css" integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.min.css" integrity="sha512-YoxvmIzlVlt4nYJ6QwBqDzFc+2aXL7yQwkAuscf2ZAg7daNQxlgQHV+LLRHnRXFWPHRvXhJuBBjQqHAqRFkcVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9" style="background-color: #F7F8FA;height: 100vh;">
+                <nav class="navbar navbar-expand-lg" style="background-color: #FFFFFF;">
+                    <div class="container-fluid">
+                      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item"><a class="nav-link" href="#"> <img src="assets/img/settings.png" alt="" style="width: 40px; height: 40px;"> </a></li>
+                          <li class="nav-item"><a class="nav-link" href="#"> <img src="assets/img/profile1.png" alt="" style="width: 40px; height: 40px;"> </a></li>
+                          <li class="nav-item"><a class="nav-link" href="#"> <img src="assets/img/message.png" alt="" style="width: 40px; height: 40px;"> </a></li>
+                          <li class="nav-item"><a class="nav-link" href="#"> <img src="assets/img/alarm.png" alt="" style="width: 40px; height: 40px;"> </a></li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
+                        </form>
+                      </div>
+                    </div>
+                </nav>
+
+            </div>
+
+
+            <div class="col-3" style="background-color: #7851F5;height: 100vh;">
+                <div class="row">
+                    <img src="assets/img/edutech.JPG" alt="" style="padding: 2rem 1rem;">
+                </div>
+                <div class="row">
+                    <style>
+                        .side_menu_style{
+                            float: right;
+                            color: white;
+                            text-decoration: none;
+                            width: 220px;
+                            height: 40px;
+                            text-align: end;
+                            padding: .1rem 1rem;
+                            margin: .2rem 0rem;
+                            border-radius: .5rem;
+                            font-size: 1.1rem;
+                            font-weight: bold;
+                        }
+                        .active_menu{
+                            background-color: #DFDBFF;
+                            color: #7851F5;
+                        }
+                        .side_menu_style:hover{
+                          background-color: #DFDBFF;
+                          color: #7851F5;
+                        }
+                    </style>
+                    <div class="col ms-5" style="padding: 0 2rem;">
+                      <div class=""><a href="home.html" class="side_menu_style">Home <i class="fa-solid fa-graduation-cap ps-3"></i></a></div> 
+                      <div class=""><a href="index.html" class="side_menu_style active_menu">Courses <i class="fa-solid fa-book-bookmark ps-3"></i></a></div>
+                      <div class=""><a href="exams.htmk" class="side_menu_style">Exams <i class="fa-solid fa-business-time ps-3"></i></a></div>
+                      <div class=""><a href="videos.html" class="side_menu_style">Videos <i class="fa-solid fa-video ps-3"></i></a></div>
+                      <div class=""><a href="accounts.html" class="side_menu_style">Accounts <i class="fa-solid fa-briefcase ps-3"></i></a></div>
+                      <!-- <div style="width: 20px;height: 40px;border-radius: 40px 0px 0px 40px;background-color: #DFDBFF;"></div> -->
+                    </div>
+                    
+
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/img/infographics1.svg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
